@@ -14,7 +14,7 @@
 
 No pude meter node_modules aqui asi que lo puse aqui: https://we.tl/t-Mi9pEwTCKN
 
-extensions.json y settings.json los subi indvudualmente ya que no pude subir su carpeta
+extensions.json y settings.json los subi indvudualmente ya que no pude subir su carpeta .vscode
 
 para usar primero debes:
 
