@@ -12,4 +12,14 @@
 
 #Docente: Esquivel Pat Agustin
 
-#No pude meter node_modules aqui asi que lo puse aqui: https://we.tl/t-Mi9pEwTCKN
+No pude meter node_modules aqui asi que lo puse aqui: https://we.tl/t-Mi9pEwTCKN
+
+extensions.json y settings.json los subi indvudualmente ya que no pude subir su carpeta
+
+para usar primero debes:
+
+CD crud_json
+
+json-server --watch db.json
+
+npm run dev
