@@ -1,0 +1,82 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nombre": "Juan Pérez",
+      "correo": "juan.perez@example.co",
+      "direccion": "Calle Falsa "
+    },
+    {
+      "id": "2",
+      "nombre": "Ana García",
+      "correo": "ana.garcia@example.com",
+      "direccion": "Avenida Siempreviva 456"
+    }
+  ],
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Laptop",
+      "descripcion": "Laptop de 15 pulgadas",
+      "precio": 750
+    },
+    {
+      "id": "2",
+      "nombre": "Smartphone",
+      "descripcion": "Smartphone de última generación",
+      "precio": 500
+    },
+    {
+      "id": "779c",
+      "nombre": "salvame dios",
+      "descripcion": "piedad",
+      "precio": 1000000
+    }
+  ],
+  "ordenes": [
+    {
+      "id": "1",
+      "usuario_id": 1,
+      "productos": [
+        {
+          "producto_id": 1,
+          "cantidad": 1
+        },
+        {
+          "producto_id": 2,
+          "cantidad": 2
+        }
+      ],
+      "total": 1750,
+      "fecha": "2024-06-06T12:34:56Z"
+    },
+    {
+      "id": "2",
+      "usuario_id": 2,
+      "productos": [
+        {
+          "producto_id": 2,
+          "cantidad": 1
+        }
+      ],
+      "total": 500,
+      "fecha": "2024-06-07T08:22:15Z"
+    },
+    {
+      "id": "e1d7",
+      "usuario_id": 2,
+      "productos": [
+        {
+          "producto_id": 2,
+          "cantidad": 1
+        },
+        {
+          "producto_id": 1,
+          "cantidad": 1
+        }
+      ],
+      "total": 1,
+      "fecha": "2024-06-19T09:55"
+    }
+  ]
+}
